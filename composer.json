@@ -1,0 +1,34 @@
+{
+  "name": "skaylic/yandex-geo-php",
+  "description": "PHP-library for interactions with geo-coding Yandex.Maps",
+  "keywords": ["yandex", "geo", "php"],
+  "homepage": "https://github.com/Skaylic/yandex-geo-php",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "skaylic",
+      "homepage": "https://github.com/Skaylic"
+    },
+    {
+      "name": "skaylic",
+      "email": "info@skaylic.ru",
+      "homepage": "https://skaylic.ru"
+    },
+    {
+      "name": "skaylic",
+      "homepage": "https://github.com/Skaylic"
+    }
+  ],
+  "require": {
+    "curl/curl": "^2.2",
+    "gabordemooij/redbean": "^5.4",
+    "symfony/var-dumper": "^5.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Skay\\": "src/"
+    }
+  }
+}
