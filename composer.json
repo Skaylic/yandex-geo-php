@@ -23,7 +23,6 @@
   ],
   "require": {
     "curl/curl": "^2.2",
-    "gabordemooij/redbean": "^5.4",
     "symfony/var-dumper": "^5.0"
   },
   "autoload": {
